@@ -20,10 +20,12 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <h2>Speech to Text Converter</h2>
+        <h2>Suggestify</h2>
         <br />
         <p>
-          A React hook that converts speech from the microphone to text and makes it available to your React components.
+        🎙️ Just speak naturally into your phone — our system records the conversation and intelligently recommends the best products for you.
+💡 No buttons, no typing — just your voice.
+🛍️ From thoughts to things, instantly.
         </p>
 
         <div className="main-content" onClick={() => setTextToCopy(transcript)}>
